@@ -1,0 +1,40 @@
+body {
+    font-family: 'M PLUS Rounded 1c';
+    margin: 2rem 4rem;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+}
+
+footer {
+    display: flex;
+}
+
+a {
+    color: black;
+    font-weight: bolder;
+}
+
+.bar {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 20px;
+    width: 100%;
+    background-image: linear-gradient(to left,#4BEB8E, #3BF1FF);
+}
+
+.logoImage {
+    margin-right: 50%;
+}
+
+.navbar {
+    padding: 10px;
+    border: solid;
+    text-align: right;
+}
+
+.about {
+    display: flex;
+}
