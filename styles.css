@@ -4,18 +4,60 @@ body {
     justify-content: center;
 }
 
-header {
+h1 {
+    font-size: 53px;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.about h2 {
+    font-weight: normal;
+    margin: 0px;
+}
+
+header, .about {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logoImage img {
+    max-width: 100px; /* Adjust size of logo */
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px; /* Space between navigation links */
+}
+
+.navbar a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.leftElement {
+    width: 50%;
+}
+
+.rightElement {
+    margin-left: 30px;
+    width: 50%; /* Adjust size of logo */
+    height: auto;
 }
 
 footer {
     display: flex;
 }
 
-a {
-    color: black;
-    font-weight: bolder;
-}
 
 .bar {
     margin-top: 10px;
@@ -25,15 +67,7 @@ a {
     background-image: linear-gradient(to left,#4BEB8E, #3BF1FF);
 }
 
-.logoImage {
-    margin-right: 50%;
-}
 
-.navbar {
-    padding: 10px;
-    border: solid;
-    text-align: right;
-}
 
 .about {
     display: flex;
