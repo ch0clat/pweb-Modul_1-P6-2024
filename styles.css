@@ -61,6 +61,60 @@ nav ul li a:hover {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+
+    .about {
+        flex-direction: column;
+    }
+
+    .leftElement h1 {
+        font-size: 32px;
+    }
+
+    .abouts {
+        font-size: 24px;
+    }
+
+    p {
+        padding: 0 10% 0 5%;
+    }
+    
+    .menu-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .testimonials-container {
+        flex-wrap: wrap;
+    }
+
+    .testimonial-card {
+        margin: 10px 10px;
+    }
+    
+    .contact-images img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .leftElement h1 {
+        font-size: 48px;
+    }
+
+    p {
+        padding: 0 20% 0 5%;
+    }
+
+    .menu-items {
+        flex-wrap: wrap;
+    }
+}
+
 .abouts {
     font-weight: 100;
     font-size: 45px;
@@ -87,12 +141,64 @@ p {
 .menu-items {
     display: flex;
     justify-content: space-between;
+    padding: 20px 10px;
+    border-radius: 15px;
     margin-top: 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .menu-card {
-    padding: 5% 5% 5% 5%;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.menu a {
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-align: initial;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #33c3f0;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+} 
+
+.menu a:hover {
+    background-color: white;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    padding-inline: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #3BF1FF;
+  }
+
+  .bottom-left {
+    position: absolute;
+    color: #000000;
+    font-weight: bold;
+    bottom: 8px;
+    left: 16px;
+  }
+
+.reviews-catalog {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #DCE1FF;
+    filter: drop-shadow(0px 5px 5px #000000);
 }
 
 .menu button {
