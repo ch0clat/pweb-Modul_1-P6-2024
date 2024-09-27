@@ -7,7 +7,7 @@
 
 body {
     line-height: 1.6;
-    font-family: 'M PLUS Rounded 1c';
+    
 }
 
 header {
@@ -70,9 +70,6 @@ p {
     padding: 0 40% 0 5%;
 }
 
-
-/* Menu */
-
 .menu {
     background-color: #ffffff;
     padding: 50px;
@@ -95,51 +92,18 @@ p {
 }
 
 .menu-card {
-    position: relative;
-    text-align: center;
-    color: black;
+    padding: 5% 5% 5% 5%;
 }
 
-.menu a {
+.menu button {
     margin-top: 10px;
     padding: 10px 20px;
-    text-align: initial;
-    font-weight: bold;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     border: none;
     background-color: #33c3f0;
-    color: black;
+    color: white;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
 } 
-
-.menu a:hover {
-    background-color: white;
-}
-
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-    padding-inline: 15px;
-    border-radius: 10px;
-    font-weight: bold;
-    color: #000000;
-    background-color: #3BF1FF;
-  }
-
-  .bottom-left {
-    position: absolute;
-    color: #000000;
-    font-weight: bold;
-    bottom: 8px;
-    left: 16px;
-  }
 
 .testimonials {
     padding: 50px;
