@@ -1,11 +1,8 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'M PLUS Rounded 1c';
-}
-
-body {
     line-height: 1.6;
 }
 
@@ -43,7 +40,7 @@ nav ul li a:hover {
 .bar {
     height: 20px;
     width: 100%;
-    background-image: linear-gradient(to left,#4BEB8E, #3BF1FF);
+    background-image: linear-gradient(to left, #4BEB8E, #3BF1FF);
 }
 
 h1 {
@@ -59,9 +56,13 @@ h1 {
 }
 
 .menu-items {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .menu-card {
@@ -82,14 +83,23 @@ h1 {
     margin-top: 15px;
 }
 
-.menu-card button {
-    margin-top: 10px;
+.menu p {
+    margin-bottom: 30px;
+}
+
+.menu-card a {
+    text-decoration: none;
+    margin: 20px;
     padding: 10px 20px;
     border: none;
     background-color: #33c3f0;
     color: white;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.menu-card a:hover {
+    background-color: black;
 }
 
 .contact {
@@ -121,15 +131,13 @@ footer p {
     text-align: center;
 }
 
-/* Untuk tablet (lebar layar maksimal 768px) */
 @media (max-width: 768px) {
     h1 {
         font-size: 40px;
     }
 
     .menu-items {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: repeat(2, 45%);
     }
 
     .menu-card {
@@ -152,7 +160,7 @@ footer p {
     }
 }
 
-/* Untuk smartphone (lebar layar maksimal 480px) */
+
 @media (max-width: 480px) {
     h1 {
         font-size: 30px;
@@ -164,8 +172,7 @@ footer p {
     }
 
     .menu-items {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: repeat(1, 80%);
     }
 
     .contact {
