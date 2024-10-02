@@ -175,6 +175,8 @@ p {
     background-color: white;
 }
 
+
+/* Buat Position */
 .top-right {
     position: absolute;
     top: 8px;
