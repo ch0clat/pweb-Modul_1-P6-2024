@@ -55,7 +55,7 @@ h1 {
     text-align: center;
 }
 
-/* Flex */
+/* Flex dan juga grid*/
 .menu-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -132,6 +132,7 @@ footer p {
     text-align: center;
 }
 
+/* Untuk Responsivenya */
 @media (max-width: 768px) {
     h1 {
         font-size: 40px;
