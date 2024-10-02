@@ -14,11 +14,14 @@ header {
     padding: 1%;
 }
 
+/* Buat z-indexnya */
 nav {
     padding: 0 10px 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
+    background-color: white;
 }
 
 nav ul {
