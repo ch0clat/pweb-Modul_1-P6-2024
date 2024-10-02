@@ -14,11 +14,14 @@ header {
     padding: 1%;
 }
 
+/* Buat z-indexnya */
 nav {
     padding: 0 10px 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
+    background-color: white;
 }
 
 nav ul {
@@ -36,7 +39,7 @@ nav ul li a {
     color: #333;
     padding: 5px 0;
 }
-
+/*buat Pseudo-class */
 nav ul li a:hover {
     border-bottom: 1px solid black;
 }
@@ -175,6 +178,8 @@ p {
     background-color: white;
 }
 
+
+/* Buat Position */
 .top-right {
     position: absolute;
     top: 8px;
